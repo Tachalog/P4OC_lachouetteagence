@@ -269,7 +269,7 @@ a:hover {
 }
 
 .voffset-lg {
-    margin-top: 80px;
+    margin-top: 40px;
 }
 
 .row-no-gutters {
@@ -658,7 +658,9 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757 !important;
+
+    /*color: #575757 !important;*/
+    color: #000000 !important;
 }
 
 .container {
@@ -684,7 +686,8 @@ a {
 }
 
 p {
-    font-size: 12px;
+    /*font-size: 12px;*/
+    font-size: 18px;
 }
 
 .tight-width-whitespace {
@@ -709,7 +712,7 @@ p {
 .social {
   /*max-width: 400px;    
 margin: auto auto auto auto;*/
-    
+
     justify-content: center;
 }
 
@@ -719,11 +722,14 @@ h2 {
 }
 
 h3 {
-    font-size: 15px;
+    font-size: 18px;
+    font-style: italic;
+    line-height: 2;
 
     /*text-transform: uppercase;*/
     font-weight: 700;
-    color: #333333 !important;
+    /*color: #424242 !important;*/
+    color: #616161 !important;
 }
 
 .med-width-whitespace {
@@ -796,8 +802,9 @@ h3 > p {
 
 .btn-atomic-tangerine {
     background-color: #f3976c;
+
     /*color: #ffffff !important;*/
-    color : #000000 !important;
+    color: #000000 !important;
 }
 
 .btn-atomic-tangerine:hover {
