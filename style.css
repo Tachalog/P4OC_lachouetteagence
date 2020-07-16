@@ -798,7 +798,8 @@ h3 > p {
 }
 
 .tc-white {
-    color: #f3976c !important;
+    /*color: #f3976c !important;*/
+    color: white !important;
 }
 
 .btn-atomic-tangerine {
