@@ -1008,9 +1008,11 @@ h3 > p {
         box-shadow: none;
     }
 
-    .navbar-brand img {
+    .navbar-brand img,
+    .navbar-brand:focus {
         max-height: 40px;
         width: auto;
+        color:white;
     }
 
     .nav-invert .navbar-header {
