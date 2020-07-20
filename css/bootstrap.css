@@ -2326,8 +2326,7 @@ pre code {
     .col-sm-7,
     .col-sm-8,
     .col-sm-9 {
-        /*float: left;*/
-        justify-content: center;
+        float: left;
     }
 
     .col-sm-4 {
