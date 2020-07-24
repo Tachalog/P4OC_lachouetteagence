@@ -18,6 +18,12 @@ a:hover {
     cursor: pointer;
 }
 
+a:focus,
+a:hover {
+    text-decoration: underline;
+    box-shadow: 10px 10px orangered;
+}
+
 #page-loading-blocs-notifaction {
     position: fixed;
     top: 0;
@@ -812,6 +818,12 @@ h3 > p {
 .btn-atomic-tangerine:hover {
     background: #c27956 !important;
     color: #FFFFFF !important;
+}
+
+
+.btn-atomic-tangerine:focus {
+    text-decoration:underline;
+    box-shadow: 10px 10px orangered;
 }
 
 .ltc-white {
