@@ -5333,7 +5333,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
     max-height: 340px;
 }
 
-@media (max-device-width: 480px) and (orientation: landscape) {
+@media (max-width: 480px) and (orientation: landscape) {
     .navbar-fixed-bottom .navbar-collapse,
     .navbar-fixed-top .navbar-collapse {
         max-height: 200px;
@@ -6735,7 +6735,6 @@ button.list-group-item-info.active:focus,
 button.list-group-item-info.active:hover {
     color: #fff;
     background-color: #31708f;
-    border-color: #31708f;
 }
 
 .list-group-item-warning {
@@ -7120,7 +7119,6 @@ button.list-group-item-danger.active:hover {
 .panel-primary > .panel-heading {
     color: #fff;
     background-color: #337ab7;
-    border-color: #337ab7;
 }
 
 .panel-primary > .panel-heading + .panel-collapse > .panel-body {
